@@ -38,7 +38,7 @@
                         name:'我的',
                         img:'../../static/img/productIndexFooterIcon/foot-my.png',
                         imgGo:'../../static/img/productIndexFooterIcon/foot-my-1.png',
-                        url:'/index/user'
+                        url:'/index/user/my'
                     }
                 ]
             }

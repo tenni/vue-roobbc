@@ -11,7 +11,7 @@ export default {
   	}
   },
   created(){
-    this.$emit("floorStatus",3);
+    
   }
 }
 </script>

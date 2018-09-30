@@ -5,7 +5,8 @@ import index from 'components/index'
 import product from 'views/product'
 import order from 'views/order'
 import news from 'views/news'
-import user from 'views/user'
+import my from 'views/user/my'
+import customer from 'views/user/customer'
 
 Vue.use(Router)
 
@@ -31,9 +32,9 @@ export default new Router({
                 component: news,
             },
             {
-                path: 'user',
+                path: 'user/my',
                 name: '萝卜初行-我的',
-                component: user,
+                component: my,
             },
         ]
     },
@@ -41,8 +42,13 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/customer',
+      name: 'customer',
+      component: customer
     }
 
   ],
-  mode:"history"
+  //mode:"history"
 })

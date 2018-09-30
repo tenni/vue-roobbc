@@ -1,0 +1,170 @@
+.invites-navigate{
+    text-align: left;
+    text-indent: 0.9rem;
+}
+.invites-head{
+    background:#5dadd0;
+    height: 3.52rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.57rem;
+    color: #ffffff;
+}
+.invites-head-img{
+    width: 1.66rem;
+    height: 1.66rem;
+    border: 0.07rem solid #9ecee2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.invites-head-imgs{
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.invites-title{
+    font-size: 0.34rem;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+}
+.invites-text{
+    width: 4.64rem;
+    height: 0.58rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.invites-cent{
+    padding-left: 0.42rem;
+    padding-right: 0.42rem;
+    padding-bottom: 1rem;
+}
+.invites-cent-cell{
+    padding-bottom: 0.66rem;
+}
+.invites-cent-cell .cellPhone{
+    border-bottom: 0.01rem solid #b2b2b2;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.36rem;
+}
+.invites-cent-cell .cellPhone .icon-bottom{
+    width: 0.19rem;
+    height: 0.1rem;
+    vertical-align: middle;
+    margin-left:0.1rem;
+    margin-right: 0.2rem;
+}
+.invites-cent-cell .cellPhone .input{
+    vertical-align: top;
+    font-size: 0.3rem;
+    width: 5.2rem;
+}
+.invites-cent-cell .smsCode{
+    border-bottom: 0.01rem solid #b2b2b2;
+    height: 1.26rem;
+    line-height: 1.26rem;
+    font-size: 0.3rem;
+    position: relative;
+}
+.invites-cent-cell .smsCode .input{
+    vertical-align: top;
+    margin-left: 0.4rem;
+    font-size: 0.3rem;
+    max-width: 3rem;
+    line-height: 1.25rem;
+}
+.invites-cent-cell .smsCode .smsCodeS{
+    display: inline-block;
+    width: 1.6rem;
+    height: 0.5rem;
+    border:0.02rem solid #5dadcf;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color:#5dadd0;
+    font-size: 0.24rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.invites-cent-cell .goProductIndex{
+    margin-top: 0.34rem;
+    width: 6.66rem;
+    height: 0.8rem;
+    background:#ea5541;
+    color:#ffffff;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.34rem;
+    display: block;
+    -webkit-border-radius: 0.07rem;
+    -moz-border-radius: 0.07rem;
+    border-radius: 0.07rem;
+}
+.invites-logs{
+    width: 2.46rem;
+    height: 1.08rem;
+    margin:0.66rem auto 0.53rem auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.invites-imgs{
+    width: 6.68rem;
+    height: 6.87rem;
+}
+.invites-texts{
+    font-size: 0.34rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.35rem;
+    text-align: center;
+    font-weight: bold;
+}
+.invites-text-list{
+    text-align: center;
+    font-size: 0.28rem;
+}
+.invites-text-list .list{
+    padding-bottom: 0.2rem;
+}
+.invites-text-list .list span{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:#ea5541;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+.dowApp, .goIndex{
+    width: 6.62rem;
+    height: 0.76rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    border-radius: 0.08rem;
+    display:block;
+    border:0.02rem solid #5dadd0;
+    line-height: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+}
+.dowApp{
+    background:#5dadd0;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+.goIndex{
+    color:#5dadd0;
+    margin-top:0.23rem;
+    margin-bottom: 0.3rem;
+}

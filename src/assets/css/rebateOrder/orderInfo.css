@@ -1,0 +1,226 @@
+.orderInfo{
+    margin-left:0.42rem;
+    margin-right:0.41rem;
+    padding-top:0.32rem;
+    padding-bottom:1.37rem;
+}
+.orderInfo-status{
+    border-bottom:0.01rem solid #c5c5c5;
+    padding-bottom:0.61rem;
+}
+.icon-waitPay{
+    width:0.75rem;
+    height:0.83rem;
+    margin-right:0.23rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.status-text{
+    display: inline-block;
+}
+.status-text .top-Text{
+    font-size:0.36rem;
+    color:#ea5541;
+    padding-bottom:0.1rem;
+}
+.status-text .cent-text{
+    font-size:0.24rem;
+    line-height:0.4rem;
+}
+.status-text .cent-text .time{
+    color:#ea5541;
+    font-size:0.26rem;
+}
+.product-info{
+    padding-bottom:0.54rem;
+    border-bottom:0.01rem solid #c5c5c5;
+    padding-top:0.41rem;
+    position: relative;
+}
+.product-img-block{
+    width:1.3rem;
+    height:0.85rem;
+    margin-right:0.21rem;
+    display:inline-block;
+    overflow: hidden;
+}
+.product-img{
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.product-text{
+    display: inline-block;
+}
+.product-text .title{
+    width:4rem;
+    padding-bottom:0.2rem;
+    font-size:0.28rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.product-text .product-type{
+    color:#70b63c;
+    font-size:0.26rem;
+}
+.icon-kuaidi{
+    width:0.29rem;
+    height:0.29rem;
+}
+.product-type-list{
+    width:0.79rem;
+    height:0.27rem;
+    border:0.01rem solid #70b63c;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+    font-size: 0.22rem;
+    display: inline-block;
+    margin-left:0.17rem;
+    text-align: center;
+}
+.product-info .icon-go{
+    width:0.16rem;
+    height:0.3rem;
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.product-date{
+    padding-top:0.65rem;
+    padding-bottom:0.55rem;
+    text-align: center;
+}
+.product-date .all-time{
+    margin-left:0.7rem;
+    margin-right:0.6rem;
+    padding-left:0.15rem;
+    padding-right:0.15rem;
+    vertical-align: middle;
+    font-size:0.26rem;
+    color:#ea5541;
+    padding-bottom:0.1rem;
+    border-bottom:0.01rem solid #ea5541;
+    display:inline-block;
+}
+.product-date .start-time, .product-date .end-time{
+    display:inline-block;
+    vertical-align: middle;
+}
+.product-date .start-time .title, .product-date .end-time .title{
+    font-size:0.28rem;
+    color:#a3a3a3;
+    padding-bottom:0.1rem;
+}
+.product-date .start-time .time, .product-date .end-time .time{
+    font-size:0.4rem;
+    color:#5dadd0;
+    padding-bottom:0.1rem;
+}
+.product-date .start-time .week, .product-date .end-time .week{
+    color:#5dadd0;
+    font-size:0.36rem;
+}
+
+.orderInfo-list{
+    border-bottom:0.01rem solid #c5c5c5;
+    height:1.33rem;
+    line-height:1.33rem;
+    font-size:0.3rem;
+    position: relative;
+}
+.contact{
+    width:0.96rem;
+    height:0.38rem;
+    color:#5dadd0;
+    border:0.01rem solid #5dadd0;
+    margin-left:0.14rem;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+    text-align: center;
+    line-height:0.38rem;
+    display:inline-block;
+}
+.orderInfo-list .right{
+    position: absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.orderInfo-list .right .user-img{
+    width:0.64rem;
+    height:0.64rem;
+    margin-left:0.13rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.orderInfo-list-two{
+    border-bottom:0.01rem solid #c5c5c5;
+    padding-bottom:0.44rem;
+    font-size:0.3rem;
+    position: relative;
+}
+.orderInfo-list-two .list{
+    padding-top:0.54rem;
+    position: relative;
+}
+.orderInfo-list-two .right{
+    position: absolute;
+    right:0;
+}
+.order-right{
+    text-align: right;
+}
+.order-right .order-price{
+    font-size:0.45rem;
+    padding-bottom:0.1rem;
+    padding-top:1.04rem;
+}
+.order-right .order-price .font{
+    font-size:0.6rem;
+}
+.order-right .viewPriceInfo{
+    font-size:0.3rem;
+    color:#5dadd0;
+    margin-bottom:1.08rem;
+    display: inline-block;
+}
+.order-right .cancelOrder, .order-right .assess{
+    width:1.75rem;
+    height:0.71rem;
+    text-align: center;
+    line-height:0.71rem;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+    margin-right:0.33rem;
+    display: inline-block;
+}
+.order-right .cancelOrder{
+    border:0.01rem solid #a6a6a6;
+    color:#a6a6a6;
+}
+.order-right .paying{
+    width:1.77rem;
+    height:0.73rem;
+    background:#ea5541;
+    text-align: center;
+    line-height:0.73rem;
+    color: #ffffff;
+    display: inline-block;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+}
+.order-right .assess{
+    border:0.01rem solid #ea5541;
+    color:#ea5541;
+    margin-right:0;
+}

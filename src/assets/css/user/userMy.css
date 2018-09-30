@@ -1,0 +1,133 @@
+.my-head{
+    background:#5dadd0;
+    padding-top:0.97rem;
+    padding-bottom:0.33rem;
+    text-align: center;
+    position: relative;
+    color:#fff;
+}
+.my-top-type{
+    height:0.78rem;
+    display: block;
+    background:#5dadd0;
+    text-align: right;
+    padding-right:0.34rem;
+    width:7.15rem;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.type{
+    width:0.58rem;
+    height:0.53rem;
+    background: url("../../../assets/img/userMy/set.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: inline-block;
+    margin-top:0.11rem;
+}
+.my-user-info{
+    display: inline-block;
+}
+.view-img{
+    width:2.21rem;
+    height:2.21rem;
+    border:0.08rem solid rgba(255, 255, 255, 0.4);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom:0.28rem;
+    display:block;
+}
+.view-img .img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 2.21rem;
+    height: 2.21rem;
+    overflow: hidden;
+}
+.view-img-up{
+    position: absolute;
+    width:0.54rem;
+    height:0.54rem;
+    bottom:-0.1rem;
+    display: inline-block;
+    right:0;
+}
+.my-user-info .text{
+    font-size:0.36rem;
+    padding-bottom:0.72rem;
+}
+.my-head .list-block{
+    padding-bottom:0.37rem;
+    font-size:0.3rem;
+}
+.my-head .list-block .list-block-center{
+    height:0.41rem;
+    margin-top:0.01rem;
+    width:0.02rem;
+    background:#fff;
+    margin-left:0.57rem;
+    margin-right:0.6rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.list-block-left .icon-news, .list-block-right .icon-keep{
+    vertical-align: sub;
+    margin-right:0.21rem;
+}
+.list-block-left i, .list-block-right i{
+    padding-right:0.22rem;
+}
+.list-block-left .icon-news{
+    width:0.44rem;
+    height:0.35rem;
+}
+.list-block-right .icon-keep{
+    width:0.4rem;
+    height:0.43rem;
+}
+.my-head .user-cutover{
+    width:6.05rem;
+    height:0.96rem;
+    text-align: center;
+    line-height:0.96rem;
+    background:rgba(255, 255, 255, 0.3);
+    font-size:0.36rem;
+    display: inline-block;
+    -webkit-border-radius: 0.48rem;
+    -moz-border-radius: 0.48rem;
+    border-radius: 0.48rem;
+}
+.user-block .user-list{
+    margin-left:0.43rem;
+    margin-right:0.4rem;
+    padding-top:0.42rem;
+    padding-bottom:0.42rem;
+    font-size:0.3rem;
+    border-bottom:0.01rem solid #c5c5c5;
+    position: relative;
+    display: block;
+}
+.user-block .user-list:last-child{
+    border-bottom:none;
+}
+.user-block .user-list span{
+}
+.user-list-img{
+    width:0.42rem;
+    height:0.4rem;
+    vertical-align: text-bottom;
+    margin-right:0.15rem;
+}
+.user-list-return{
+    width:0.16rem;
+    height:0.31rem;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}

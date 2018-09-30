@@ -1,0 +1,195 @@
+.index-top-head{
+    border-bottom:0.01rem solid #ddd2d6;
+    width:7.5rem;
+    height:5.57rem;
+    position: relative;
+    overflow: hidden;
+}
+.index-head{
+    position: fixed;
+    top:0.15rem;
+    width:6.9rem;
+    height:0.57rem;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius:25rem;
+    color:#636862;
+    border:0.01rem solid #5dadd0;
+    padding-left:0.43rem;
+    right:50%;
+    transform: translateX(50%);
+    transition: 1s;
+    padding-top:0.15rem;
+    z-index: 2;
+    overflow: hidden;
+}
+.index-head span{
+    line-height: 0.57rem;
+}
+.index-head-img{
+    width:0.29rem;
+    height:0.31rem;
+    position: relative;
+    top: 0.04rem;
+}
+.index-head-back{
+    width: 100%;
+    height:auto;
+}
+.index-pay{
+    position: absolute;
+    bottom:0.88rem;
+    text-align: center;
+    color:#fff;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:0.28rem;
+}
+.index-head-img-pay{
+    width:1.26rem;
+    height:1.26rem;
+    margin-bottom:0.24rem;
+}
+.index-pay .time{
+    padding-top:0.15rem;
+}
+
+.rebateProductItem{
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+    padding-bottom:0.01rem;
+    position: relative;
+    width: 6.69rem;
+    height: 100%;
+}
+.index-keep{
+    width:6.69rem;
+    height:4.26rem;
+    text-align: center;
+    margin-bottom:0.2rem;
+    position: relative;
+    overflow: hidden;
+}
+.index-keep img{
+    width:100%;
+    height:auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.rebateProductItem-img{
+    cursor: pointer;
+    width:0.46rem;
+    height:0.51rem;
+    position: absolute;
+    top:0.23rem;
+    right:0.71rem;
+}
+.rebateProduct-address{
+    position: absolute;
+    top:0.34rem;
+    left:0.32rem;
+    width:1.57rem;
+    height:0.71rem;
+    background: rgba(234, 85, 65, 0.7);
+    text-align: center;
+    color:#fff;
+    font-size:0.32rem;
+    z-index: 1;
+}
+.rebateProduct-address div:nth-child(2){
+    font-size:0.2rem;
+}
+.rebateProductItem .price{
+    padding-bottom:0.25rem;
+    position: relative;
+}
+.rebateProductItem .price .price-color{
+    color:#ea5541;
+    padding-right:0.12rem;
+    font-size:0.3rem;
+}
+.rebateProductItem .price .price-color .font{
+    font-size:0.48rem;
+}
+.rebateProductItem .price .price-color  .color{
+    color:#575757;
+}
+.rebateProductItem .price .price-type{
+    color: #6dad3f;
+    display: inline-block;
+    vertical-align: text-bottom;
+    font-size:0.24rem;
+}
+.rebateProductItem .price .price-type img{
+    width:0.34rem;
+    height:0.34rem;
+    vertical-align: bottom;
+    margin-right:0.05rem;
+}
+.rebateProductItem .price .price-poor{
+    position: absolute;
+    right:0.41rem;
+    font-size:0.2rem;
+    padding-top:0.15rem;
+    color:#585858;
+}
+
+.rebateProductItem .center{
+    margin-bottom:0.4rem;
+    position: relative;
+}
+.rebateProductItem .center .title{
+    font-size:0.28rem;
+    max-width:5rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.rebateProductItem .center .type-list{
+    display: inline-block;
+    padding:0.05rem 0.1rem;
+    border:0.01rem solid #6dad3f;
+    border-radius:0.04rem;
+    -webkit-border-radius:0.04rem;
+    font-size:0.2rem;
+    color:#6dad3f;
+    margin-top:0.16rem;
+    margin-right:0.1rem;
+}
+.rebateProductItem .center .center-right{
+    position: absolute;
+    right:0rem;
+    top:-0.12rem;
+    font-size:0.2rem;
+    display:inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.rebateProductItem .center .center-right .name{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    max-width: 1.5rem;
+}
+.rebateProductItem .center .center-right .center-right-img{
+    width:0.66rem;
+    height:0.66rem;
+    border-radius:0.03rem;
+    -webkit-border-radius:0.03rem;
+}
+.rebateProductItem .poor-img{
+    width:0.2rem;
+    height:0.19rem;
+    margin-left:0.05rem;
+}
+
+.rebateProductItem .center .center-left{
+    cursor: pointer;
+}
+.rebateProductItemA{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,141 @@
+.appraisal{
+    padding-left:0.42rem;
+    padding-right:0.41rem;
+    padding-top:0.55rem;
+}
+.appraisal-top{
+    text-align: center;
+    border-bottom:0.01rem solid #c5c5c5;
+    padding-bottom:0.41rem;
+}
+.appraisal-top-img{
+    padding-bottom:0.26rem;
+}
+.appraisal-top-img-list{
+    width:0.45rem;
+    height: 0.43rem;
+    display:inline-block;
+    margin-right:0.24rem;
+    background:url("../../img/appraisal/top-evaluate-no.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.appraisal-top-img .appraisal-top-img-list:last-child{
+    margin-right:0;
+}
+.appraisal-top-img-text{
+    font-size:0.24rem;
+    color:#737373;
+    padding-bottom:0.36rem;
+}
+.appraisal-top-img-with{
+    font-size:0.36rem;
+}
+.appraisal-text{
+    padding:0.3rem 0.1rem 0.1rem 0.1rem;
+}
+.appraisal-text-input{
+    font-size:0.28rem;
+    width:6.3rem;
+    height:2.38rem;
+    padding:0.1rem;
+}
+.appraisal-img{
+    padding-bottom:0.31rem;
+    padding-top:0.18rem;
+}
+.appraisal-img .add-img:last-child{
+    margin-right: 0;
+}
+.add-img{
+    width:1.45rem;
+    height:1.46rem;
+    display:inline-block;
+    margin-right:0.2rem;
+    text-align: center;
+    border:0.02rem solid rgba(0, 0, 0, 0.5);
+    font-size:0.2rem;
+    color:#a3a3a3;
+    position: relative;
+    vertical-align: top;
+}
+.add-img .icon-filed{
+    width:0.54rem;
+    height:0.43rem;
+    display:inline-block;
+    margin-top:0.36rem;
+    margin-bottom:0.2rem;
+}
+.add-img-list{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.appraisal-text-prompt{
+    border-bottom:0.01rem solid #c5c5c5;
+    padding-bottom:0.44rem;
+    font-size:0.24rem;
+    color:#737373;
+    line-height:0.4rem;
+}
+.appraisal-appraisal{
+    padding-top:0.06rem;
+    padding-bottom:0.73rem;
+    padding-left:0.28rem;
+}
+.appraisal-appraisal .list{
+    padding-top:0.45rem;
+}
+.appraisal-appraisal .list .text{
+    font-size:0.36rem;
+    padding-right:0.25rem;
+    vertical-align: text-bottom;
+}
+.list-appraisal{
+    width:0.37rem;
+    height:0.35rem;
+    display:inline-block;
+    margin-right:0.17rem;
+    background:url("../../img/appraisal/no-bottom-evaluate.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.appraisal-submit{
+    width:6.66rem;
+    height:1rem;
+    -webkit-border-radius: 0.07rem;
+    -moz-border-radius: 0.07rem;
+    border-radius: 0.07rem;
+    background:#5dadd0;
+    color:#fff;
+    display:inline-block;
+    margin:0 auto;
+    text-align: center;
+    line-height:1rem;
+    font-size:0.4rem;
+}
+.appraisal-top-img-list-yes{
+    background:url("../../img/appraisal/top-evaluate-yes.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.appraisal-start{
+    vertical-align: text-top;
+    font-size:0.24rem;
+    color:#737373;
+}
+.list-appraisal-reality{
+    background: url("../../img/appraisal/yes-bottom-evaluate.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.deleteImg{
+    width:0.35rem;
+    height: 0.35rem;
+    background: url("../../img/appraisal/icon-deleteImg.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    right:-0.18rem;
+    top:-0.17rem;
+}
